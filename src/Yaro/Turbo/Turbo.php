@@ -18,7 +18,7 @@ class Turbo
 
     public function auth()
     {
-        return $this->doAuth();
+        return $this->doAuth()->AuthResult;
     } // end auth
     
     public function getCredits()
