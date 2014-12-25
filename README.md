@@ -4,9 +4,13 @@ turboSMS
 turbosms.ua api package for laravel 4
 
 ========
+
 app/config/app.php
+
 'Yaro\Turbo\TurboServiceProvider',
+
 'Turbo'         => 'Yaro\Turbo\Facades\Turbo',
+
 ========
 
 Turbo::getCredits() // 4.00
