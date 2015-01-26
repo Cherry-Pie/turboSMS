@@ -46,7 +46,7 @@ class Turbo
         $ids = $status->ResultArray;
         $result = array_shift($ids);
         
-        return array($res, $ids);
+        return array($result, $ids);
     } // end sms
     
     public function getStatus($idMessage)
